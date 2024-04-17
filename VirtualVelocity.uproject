@@ -5,6 +5,14 @@
 	"Description": "",
 	"Plugins": [
 		{
+			"Name": "ChaosVehiclesPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "Paper2D",
+			"Enabled": false
+		},
+		{
 			"Name": "OpenXR",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
@@ -13,10 +21,6 @@
 				"Android",
 				"HoloLens"
 			]
-		},
-		{
-			"Name": "ChaosVehiclesPlugin",
-			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
